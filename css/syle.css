@@ -1,0 +1,21 @@
+#characters
+    {
+        background-color:orange;
+        width: 100%;
+        height: 300px;
+        align-content: center;
+    }
+#attacker
+    {
+        background-color: green;
+        width: 25%;
+    }
+#defender
+    {
+        background-color: red;
+        width:25%;
+    }
+body
+    {
+        background-color: blue;
+    }
