@@ -4,20 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="css/syle.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Star Wars RPG</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
+
 <body>
-    <div id="characters">
+    <ol>
+        <li>
+            <div class="character" id="ObiWan" data-AP="1" data-CAP="2" data-HP="3">
+                <img src="images/ObiWan.jpg">
+                <p></p>
+            </div>
+        </li>   
+        <li>
+            <div class="character" id="Yoda" data-AP="" data-CAP="" data-HP="">
+                <img src="images/Yoda.jpg">
+                <p></p>
+            </div>
+        </li>
+        <li>
+            <div class="character" id="Luke" data-AP="" data-CAP="" data-HP="">
+                <img src="images/Luke.jpg">
+                <p></p>
+            </div>
+        </li>
+        <li>
+            <div class="character" id="DarthMaul" data-AP="" data-CAP="" data-HP="">
+                <img src="images/DarthMaul.jpg">
+                <p></p>
+            </div>
+        </li>
+        <li>
+            <div class="character" id="DarthSidious" data-AP="" data-CAP="" data-HP="">
+                <img src="images/DarthSidious.jpg">
+                <p></p>
+            </div>
+        </li>
+    </ol>
+
+    <h3 id="notification">Select Your Character</h3>
+
+    <div id="gameDisplay">
+        <div id="attacker">Player</div>
+        <button  type="button" id="attackBtn">Attack!</button>
+        <div id="defender">Computer</div>
     </div>
-    <div>
-        <div id="attacker"></div>
-        <div id="attackBtn">
-            <h2>ATTACKER</h2>
-        </div>
-        <div id="defender">
-            <h2>DEFENDER</h2>
-        </div>
-    </div>
+    <script src="javascript/gameLogic.js"></script>
 </body>
+
 </html>

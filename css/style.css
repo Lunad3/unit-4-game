@@ -1,21 +1,93 @@
-#characters
-    {
-        background-color:orange;
-        width: 100%;
-        height: 300px;
-        align-content: center;
-    }
-#attacker
-    {
-        background-color: green;
-        width: 25%;
-    }
-#defender
-    {
-        background-color: red;
-        width:25%;
-    }
 body
     {
-        background-color: blue;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;    
+        position: relative;
+        background-color: purple;
     }
+
+ol 
+    {
+        overflow: auto;
+        padding:0px;
+        width: 100%;
+        height: 200px;
+        background-color: grey;
+        text-align: center;
+        margin: 0px;
+    }
+
+li
+    {
+        display: inline-block;
+        list-style-type: none;
+        color: aqua;
+    }
+
+.character
+    {
+        margin: 25px 7px;
+        width :100px;
+        text-align: center;
+    }
+
+.character p
+    {
+        margin: 0Px;
+    }
+
+img
+    {
+        height: 100px;
+        width: 100px;
+    }
+
+#notification
+    {
+        margin: 0px;
+        text-align: center;
+        height: 50px;
+        width: 100%;
+        background-color: white;
+        padding: 5px 0px;
+    }
+
+#gameDisplay
+    {
+        margin: 0px;
+        background-color: aqua;
+        height: 500px;
+        width: 100%;
+    }
+
+
+#attackBtn
+    {
+        position: absolute;
+        width: 10%;
+        height: 6%;
+        z-index: 1;
+        top: 50%;
+        left: 45%;
+    }
+
+#attacker
+    {
+        text-align: center;
+        height:100%;
+        width: 50%;
+        float: left;
+        background-color: lightblue;
+    }
+
+#defender
+    {
+        text-align: center; 
+        height:100%;
+        width: 50%;
+        float:right;
+        background-color: red;
+    }
+
