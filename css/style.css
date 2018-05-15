@@ -7,7 +7,7 @@ body
         position: relative;
         background-color: purple;
     }
-
+    
 ol 
     {
         overflow: auto;
@@ -23,19 +23,26 @@ li
     {
         display: inline-block;
         list-style-type: none;
-        color: aqua;
+        color:white;
+    }
+
+.stats
+    {
+        margin: 0px;
+        color : white;
+        height: auto;
+    }
+
+.stats li
+    {
+        display: block;
     }
 
 .character
     {
-        margin: 25px 7px;
+        margin: 10px 7px;
         width :100px;
         text-align: center;
-    }
-
-.character p
-    {
-        margin: 0Px;
     }
 
 img
@@ -91,3 +98,24 @@ img
         background-color: red;
     }
 
+#attacker .character , #defender .character
+    {
+        font-weight: bolder;
+        font-size: 24px;
+        width: auto;
+    }
+
+#attacker img , #defender img
+    {
+        height: 200px;
+        width: 200px;
+    }
+
+#attacker .stats , #defender .stats 
+    {
+        background-color: transparent;
+    }
+#attacker .stats li, #defender .stats li
+    {
+        color: black;
+    }
